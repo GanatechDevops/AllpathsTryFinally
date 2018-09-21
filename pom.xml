@@ -3,6 +3,18 @@
   <groupId>com.java</groupId>
   <artifactId>Allpathstryfinally</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+<build>
+    <plugins>
+        <plugin>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.1</version>
+            <configuration>
+                <fork>true</fork>
+                <executable>C:\Program Files\Java\jdk1.7.0_45\bin\javac.exe</executable>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
    <dependencies>
      <dependency>
      <groupId>junit</groupId>
